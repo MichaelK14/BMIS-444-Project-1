@@ -1,3 +1,5 @@
+import streamlit as st
+import psycopg2
 
 st.set_page_config(page_title="Log Game Stats", page_icon="📝")
 
