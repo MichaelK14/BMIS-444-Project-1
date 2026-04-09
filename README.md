@@ -7,3 +7,13 @@ This is a system that is designed to help a baseball coach keep track of team da
 
 ERD:
 ![ERD](erd.png)
+
+Table Descriptions:
+- players: Stores the team roster (name, number, position, etc.)
+- games: tracks the season schedule(game data, opponent)
+- player_stats: This is the bridge table between players and games. It tracks the statistics for each player in each game.
+
+For someone to run the app on their device, they would need to first install Python. The user would need to use the repository on GitHub. They would also need to set up the connection string for the database as DB_URL. 
+
+Link:
+https://baseballrosterapppy-q7eo5zoswrttequgs3snjl.streamlit.app/
